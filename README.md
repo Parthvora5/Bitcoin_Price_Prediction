@@ -1,64 +1,48 @@
----
-
 # 📈 Bitcoin Price Prediction using Random Forest Regressor 🧠
 
-Welcome to the Bitcoin Price Prediction project! This repository contains code to load, preprocess, and train a machine learning model to predict Bitcoin closing prices. Using historical data, we employ a RandomForestRegressor to make predictions and evaluate the model's performance. Let's dive into the details! 🚀
+Welcome to the **Bitcoin Price Prediction** project!  
+This repository showcases how machine learning can be used to predict **Bitcoin closing prices** using historical data and a **Random Forest Regressor**.
+
+---
 
 ## 🗂️ Table of Contents
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
+- [🌟 Introduction](#🌟-introduction)
+- [📊 Dataset](#-dataset)
+- [🛠️ Installation](#️-installation)
+- [🚀 Usage](#-usage)
+- [📈 Results](#-results)
+- [📉 Visualization](#-visualization)
+- [🤝 Contributing](#-contributing)
+
+---
 
 ## 🌟 Introduction
-Predicting Bitcoin prices is both a fascinating and challenging task. This project demonstrates how machine learning can be applied to forecast the closing prices of Bitcoin using historical data.
+
+Forecasting Bitcoin prices is a complex yet fascinating challenge.  
+This project leverages machine learning to analyze historical BTC price data and forecast future **closing prices**, using a **Random Forest Regressor** model for reliable predictions.
+
+---
 
 ## 📊 Dataset
-The dataset used in this project contains historical Bitcoin prices with the following columns:
-- Date
-- Open
-- High
-- Low
-- Close
-- Adj Close
-- Volume
+
+The dataset used contains historical data for Bitcoin (BTC-USD), including:
+
+- `Date`
+- `Open`
+- `High`
+- `Low`
+- `Close`
+- `Adj Close`
+- `Volume`
+
+Make sure your dataset file is named **`BTC-USD.csv`** and placed in the root directory.
+
+---
 
 ## 🛠️ Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Armanx200/Bitcoin_Price_Prediction.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd Bitcoin_Price_Prediction
-   ```
-3. Install the required packages:
-   ```sh
-   pip install -r requirements.txt
-   ```
 
-## 🚀 Usage
-1. Ensure your dataset (`BTC-USD.csv`) is in the project directory.
-2. Run the script to train the model and make predictions:
-   ```sh
-   python BTC.py
-   ```
+Clone the repository:
 
-## 📈 Results
-The model's performance is evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE). Below is the accuracy of the model within a threshold of 2%:
-
-**Accuracy: 99.36%**
-
-### 📊 Actual vs Predicted Close Price Plot
-![Plot of Actual vs Predicted Close Price](https://github.com/Armanx200/Bitcoin_Price_Prediction/blob/main/Actual_vs_Predicted.png)
-
-## 🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
-
----
-
-Made with ❤️ by [Arman Kianian](https://github.com/Armanx200)
-
----
+```bash
+git clone https://github.com/Parthvora5/Bitcoin_Price_Prediction.git
+cd Bitcoin_Price_Prediction
