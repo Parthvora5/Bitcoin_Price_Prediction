@@ -46,3 +46,5 @@ Clone the repository:
 ```bash
 git clone https://github.com/Parthvora5/Bitcoin_Price_Prediction.git
 cd Bitcoin_Price_Prediction
+![image](https://github.com/user-attachments/assets/a3f8827f-6268-43c0-823a-487723e52146)
+Made with ❤️ by [Parth Vora]
